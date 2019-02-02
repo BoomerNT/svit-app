@@ -8,25 +8,25 @@ package com.svit.java.l2.example4;
  */
 
 class Superclass {
-	protected void printMethod() {
-		System.out.println("Printed in Superclass.");
-	}
+    protected void printMethod() {
+        System.out.println("Printed in Superclass.");
+    }
 }
 
 class Subclass extends Superclass {
 
-	@Override
-	public void printMethod() {
-		super.printMethod(); //using super to invoke super class methods
-		System.out.println("Printed in Subclass");
-	}
+    @Override
+    public void printMethod() {
+        super.printMethod(); //using super to invoke super class methods
+        System.out.println("Printed in Subclass");
+    }
 
 }
 
 public class UsingSuper
 {
-	public static void main(String[] args) {
-		Subclass s = new Subclass();
-		s.printMethod();
-	}
+    public static void main(String[] args) {
+        Subclass s = new Subclass();
+        s.printMethod();
+    }
 }

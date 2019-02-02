@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.svit.java.l2;
 
@@ -10,12 +10,12 @@ package com.svit.java.l2;
  */
 public class HelloSVIT {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		System.out.println("HELLO SVIT!");
+    /**
+     * @param args
+     */
+    public static void main(String[] args) {
+        System.out.println("HELLO SVIT!");
 
-	}
+    }
 
 }
